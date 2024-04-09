@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPTQ Ar-risalah Hidayatulloh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--background halaman utama-->
+
+    <!-- Beranda -->
+    <section class="sub-header">
+       <nav>
+        <!--logo-->
+        <a href="index.html"><img src="img_contoh/logoAr.png" alt="" ></a>
+        <!--daftar nav-->
+        <div class="nav-links" id="navLinks">
+          <!-- icon silang -->
+          <i class="fa fa-times" onclick="hiddenMenu()"></i>
+          <ul>
+            <li><a href="">BERANDA</a></li>
+            <li><a href="">TENTANG</a></li>
+            <li><a href="">BERITA</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">KONTAK</a></li>
+          </ul>
+        </div>
+        <!-- icon navbar -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+      <h1>Our Certifitace & online Program for 2024 </h1>
+    </section>
+    <!-- blog page content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="img_contoh/certificate.jpg" alt="">
+          <h2>Our Certifitace & online Program for 2024</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate ipsum quos porro dolor odit, fuga tempore incidunt rerum quidem perferendis repellat, ducimus odio laborum aspernatur, repellendus maiores similique necessitatibus.</p>
+           <br>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime deleniti necessitatibus distinctio? Minima fugit accusantium ab modi consectetur iusto voluptate, dolor ratione, quia velit, voluptas maxime excepturi at a?</p>
+             <div class="comment-box">
+               <h3>Leave a comment</h3>
+                <form  class="comment-form">
+                  <input type="text" placeholder="Enter Name">
+                  <input type="email" placeholder="Enter Email">
+                  <textarea  rows="5" placeholder="your comment"></textarea>
+                   <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+              </div>
+          </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Businnes Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data science</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Computer science</span>
+            <span>21</span>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+    
+        
+    
+    
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore assumenda sed in. Doloribus magni dolor, repudiandae, perferendis quisquam porro architecto ullam, deleniti temporibus debitis </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+      <p>Made with  <i class="fa fa-heart-o "></i> by easy totorial</p>
+    </section>
+
+
+
+
+
+
+    <!-- Membuat navbar buka tutup ketika di layar kecil -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+          navLinks.style.right="0";
+       }
+       function hiddenMenu(){
+        navLinks.style.right="-200px";
+       }
+    </script>
+</body>
+</html>
